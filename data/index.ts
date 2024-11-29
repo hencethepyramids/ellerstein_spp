@@ -1,6 +1,6 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
+    { name: "Home", link: "#home" },
+    { name: "Portfolio", link: "#portfolio" },
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
@@ -98,6 +98,14 @@ export const navItems = [
       id: 4,
       title: "CodeMeThis Platform",
       des: "Created a coding challenge platform to enhance problem-solving skills.",
+      img: "/p4.svg",
+      iconLists: ["/next.svg", "/tail.svg","/three.svg",],
+      link: "https://github.com/hencethepyramids/codeMeThis",
+    },
+    {
+      id: 5,
+      title: "test",
+      des: "test",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg","/three.svg",],
       link: "https://github.com/hencethepyramids/codeMeThis",

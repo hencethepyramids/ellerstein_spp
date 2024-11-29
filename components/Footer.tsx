@@ -8,9 +8,9 @@ const Footer = () => {
     <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw">
-          Ready to take your <span className="text-purple">your</span> digital presence to the next level?
+          Ready to take <span className="text-blue-700">your</span> digital presence to the next level?
         </h1>
-          <p className="text-white-200 md:mt-10 my-5 text-center">Reach out to me today and let&apos;s discuss how I can help you achieve your goals. </p>
+          <p className="text-black md:mt-10 my-5 text-center">Reach out to me today and let&apos;s discuss how I can help you achieve your goals! </p>
           <a href="mailto:eellerstein@gmail.com">
             <MagicButton
               title="Let's get in touch"
@@ -32,7 +32,7 @@ const Footer = () => {
               href={profile.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opactity-75 bg-black-200 rounded-lg border border-black-300"
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opactity-75 bg-black rounded-lg border border-black-300"
             >
               <img src={profile.img} alt={profile.id} alt={profile.url} width={20} height={20} />
             </a>
