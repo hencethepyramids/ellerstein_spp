@@ -7,9 +7,9 @@ const RecentProjects = () => {
   return (
     <div className="py-20 mt-20 heading relative bg-white" id="portfolio">
         <h1 className="text-black text-center">
-            A small selection of {' '} <span className="text-blue-700"> recent projects </span>
+            Showcasing My Recent Work and {' '} <span className="text-blue-700"> Creative Solutions </span>
         </h1>
-        <div className="flex flex-wrap items-center jusitfy-center p-4 gap-x-24 gap-y-8 mt-10">
+        <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10 ${ projects.length % 2 !== 0 ? 'last-row-center' : '' }">
             {projects.map(({ id, title, des, img, iconLists, link }) => (
                 <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5] flex items-center justify-center sm:w-[570px] w-[80vw]">
                     <PinContainer title={link} href={link}>
@@ -27,7 +27,7 @@ const RecentProjects = () => {
                             {title}
                         </h1>
 
-                        <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+                        <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-4">
                             {des}
                         </p>
 
@@ -43,9 +43,9 @@ const RecentProjects = () => {
                             </div>
 
                             <div className="flex justify-center items-center">
-                               <p className="flex lg:text-xl md:text-xs text-sm text-purple">Check Live Site</p>
+                               <p className="flex lg:text-xl md:text-xs text-sm text-blue-700">Check Live Site</p>
                                <FaLocationArrow className="ms-3"
-                               color="#CBACF9" /> 
+                               color="#1d4ed8" /> 
                             </div>
                         </div>
                     </PinContainer>
